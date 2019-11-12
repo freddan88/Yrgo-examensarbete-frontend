@@ -1,0 +1,65 @@
+@mixin caption_font_style() {
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+h1{
+  font-size: 2.2rem;
+  line-height: 1em;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+h2,h3,h4,h5,h6{
+  font-size: 2rem;
+  line-height: 1em;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+p{
+  font-size: 1.8rem;
+  line-height: 1.2em;
+  font-weight: normal;
+  font-style: normal;
+  color: $clr-dark;
+}
+
+a{
+  font-size: 1.6rem;
+  color: $clr-detail-light;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+time{
+  @include caption_font_style();
+  color: $clr-dark;
+  font-size: 1.2rem;
+}
+
+figcaption{
+  color: $clr-dark;
+}
+
+strong{
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1em;
+  font-size: 1.5rem;
+}
+
+small{
+  color: $clr-dark;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9rem;
+}

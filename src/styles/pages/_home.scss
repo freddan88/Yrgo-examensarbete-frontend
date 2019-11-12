@@ -1,0 +1,32 @@
+.home-content{
+  padding: 2em 0;
+
+  &__textbox{
+    margin: 0 auto;
+    max-width: 850px;
+    padding-bottom: 1em;
+  }
+
+  &__textbox > h1{
+    margin-bottom: 1.6em;
+    color: $clr-dark;
+  }
+
+  &__placeholder{
+    height: 500px;
+    background-image: url('../../images/hops_farmers.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    max-width: 1024px;
+    margin: 2em auto;
+  }
+
+  &__placeholder > .caption-text{
+    @include caption_font_style();
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    color: $clr-light;
+    padding: 0.2em 0;
+    display: block;
+  }
+}

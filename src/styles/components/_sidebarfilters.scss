@@ -1,0 +1,66 @@
+.option-box{
+  display: flex;
+  flex-direction: column;
+
+  & > label{
+    font-size: 1.5rem;
+    line-height: 2em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.5px;
+  }
+}
+
+.filter-select{
+  outline: none;
+  height: 38px;
+  padding-left: 10px;
+  border: 1px solid $clr-dark;
+  font-size: 1.4rem;
+
+  &:hover,
+  &:focus{
+    border: 1px solid $clr-detail-dark;
+  }
+
+  & > option{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.calendar{
+  background-color: $clr-light-page;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(3, 80px);
+  justify-content: center;
+  margin-top: 4em;
+  display: grid;
+  gap: 0.5em;
+
+  &__placeholder{
+    padding: 0.5em;
+    border: 1px solid $clr-dark;
+    justify-content: space-between;
+    background-color: $clr-light-page;
+    flex-direction: column;
+    display: flex;
+  }
+
+  &__placeholder > strong{
+    text-align: center;
+  }
+
+  &__placeholder > .month{
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+  }
+
+  &__placeholder > .month > .indicator{
+    background-color: $clr-detail-dark;
+  }
+}

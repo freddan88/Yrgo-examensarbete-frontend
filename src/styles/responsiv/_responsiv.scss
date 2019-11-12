@@ -1,0 +1,161 @@
+@media only screen and (max-width: 1370px){
+  body{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1360px){
+  .page-layout{
+    box-shadow: none;
+    border-radius: 0;
+    padding: 1em;
+  }
+}
+
+@media only screen and (max-width: 1060px){
+  .contact-form{
+    margin: 1em;
+  }
+}
+
+@media only screen and (max-width: 960px){
+  .lightbox-section{
+    align-items: flex-end;
+  }
+
+  .lightboxdiv{
+    padding: 0 0.5em;
+    border-radius: 0;
+
+    &__arrow-container{
+      height: 10vh;
+      padding: 0 2em;
+    }
+
+    &__arrow-container > .arrow{
+      position: static;
+    }
+
+    &__gallery-body > img{
+      max-height: 65vh;
+    }
+
+    &__gallery-body > figcaption{
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 760px){
+  .page-banner--bar{
+    height: 70px;
+  }
+
+  .page-layout{
+    padding: 0.5em;
+  }
+
+  .contact-form{
+    margin: 0.5em;
+  }
+
+  .page-content{
+    display: block;
+  }
+
+  .display-760px{
+    display: block;
+  }
+
+  .content-box{
+    padding: 0.3em;
+    min-height: auto;
+    margin: 1em 0 3em;
+    padding-bottom: 2em;
+
+    &.content-sidebar{
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 560px){
+  :root{
+    font-size: 7px;
+  }
+
+  .display-560px{
+    display: block;
+  }
+
+  .page-layout__logo{
+    display: none;
+  }
+
+  .photo-placeholder > img{
+    max-height: 450px;
+  }
+
+  .photo-placeholder > figcaption{
+    padding: 0.5em 0.5em 0.25em;
+  }
+
+  .mobile-menu-toggle-icon{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    width: 50px;
+  }
+
+  .mobile-menu-toggle-icon > img{
+    display: block;
+    height: auto;
+    width: 50%;
+  }
+
+  .main-navigation{
+    transform: translateX(-100%);
+    background-color: $clr-light-page;
+    transition: transform 0.15s linear 0s;
+    border: 1em solid $clr-body-background;
+    position: absolute;
+    display: block;
+    height: 100vh;
+    margin-top: 0;
+    padding: 2em;
+    z-index: 50;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    &.mobile-menu-open{
+      transform: translateX(0);
+    }
+
+    & > ul > .mobile-menu-close-link{
+      background-color: $clr-dark;
+      border-radius: 50%;
+      color: $clr-light;
+      padding: 2em 4em;
+    }
+
+    & > ul > .mobile-menu-close-link:hover,
+    & > ul > .mobile-menu-close-link:focus{
+      color: $clr-detail-light;
+      cursor: pointer;
+    }
+
+    & > ul{
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-top: -40px;
+      max-width: 100%;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+:root{
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after{
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-moz-focus-inner{
+  border: 0;
+}
+
+figure{
+  margin: 0;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.display-560px,
+.display-760px{
+  display: none;
+}
+
+%flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

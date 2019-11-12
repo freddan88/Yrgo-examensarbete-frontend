@@ -1,0 +1,38 @@
+.main-footer{
+  justify-content: space-between;
+  background-color: $clr-dark;
+  padding: 1em 10em 0;
+  flex-wrap: wrap;
+  display: flex;
+
+  &__column{
+    flex: 1 1 370px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px;
+    display: flex;
+  }
+
+  & > div > strong{
+    text-transform: uppercase;
+    color: $clr-detail-dark;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 2rem;
+  }
+
+  & li{
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.2em;
+    color: $clr-light;
+    font-size: 2rem;
+  }
+
+  & a:hover{
+    text-decoration: underline;
+  }
+}

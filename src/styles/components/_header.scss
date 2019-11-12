@@ -1,0 +1,52 @@
+.page-banner{
+  background-color: $clr-dark;
+  color: $clr-light;
+
+  &--expanded > img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  &--bar{
+    height: 100px;
+    display: flex;
+    padding: 0 2em;
+    align-items: center;
+  }
+}
+
+.main-navigation{
+  @extend %flex-center;
+  margin-top: 1em;
+  height: 80px;
+
+  & > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.main-navigation__link > a{
+  font-size: 2rem;
+  color: $clr-dark;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.main-navigation__link > a.active::after{
+  content: "";
+  display: block;
+  height: 4px;
+  background-color: $clr-detail-dark;
+  position: absolute;
+  width: 100%;
+  bottom: -6px;
+}

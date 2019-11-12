@@ -1,0 +1,52 @@
+.contact-form{
+  margin: 4em;
+
+  &__group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  &__group > label{
+    padding: 0.5rem;
+    color: $clr-dark;
+    font-size: 1.4rem;
+  }
+
+  &__group > input,
+  &__group > textarea{
+    padding-left: 1rem;
+    border: 1px solid $clr-dark;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    outline: none;
+    height: 38px;
+  }
+
+  &__group > input:focus,
+  &__group > textarea:focus{
+    border: 1px solid $clr-detail-light;
+  }
+
+  &__group > textarea{
+    padding: 1rem;
+    height: 150px;
+    resize: none;
+  }
+
+  &__button{
+    background-color: $clr-detail-dark;
+    margin: 2rem 0.5rem 0 auto;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: $clr-light;
+    font-weight: bold;
+    display: block;
+    outline: none;
+  }
+
+  &__button:hover{
+    background-color: $clr-dark;
+    cursor: pointer;
+  }
+}

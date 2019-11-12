@@ -1,0 +1,38 @@
+.bloggpost{
+  min-height: 195px;
+  background-color: $clr-light;
+  border: 1px solid $clr-detail-light;
+  margin-bottom: 1em;
+
+  &:last-of-type{
+    margin-bottom: 0;
+  }
+
+  &__information{
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin: 1.5em;
+  }
+
+  &__information::after{
+    background-color: $clr-dark;
+    position: absolute;
+    bottom: -0.5em;
+    display: block;
+    width: 100%;
+    height: 1px;
+    content: "";
+  }
+
+  &__information > h2{
+    text-transform: uppercase;
+    color: $clr-dark;
+    margin: 0;
+  }
+
+  &__body{
+    padding: 0 2em;
+  }
+}

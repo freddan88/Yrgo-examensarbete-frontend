@@ -1,0 +1,56 @@
+.page-content{
+  display: flex;
+}
+
+@keyframes arrow {
+  from {background-position-y: -2px;}
+  to {background-position-y: -8px;}
+}
+
+@-webkit-keyframes arrow {
+  from {background-position-y: -2px;}
+  to {background-position-y: -8px;}
+}
+
+.content-box{
+  padding: 0.5em;
+  border: 1px solid $clr-dark;
+  background-color: $clr-light-box;
+  margin: 8em 0 18em;
+  min-height: 480px;
+
+  &.main-content-box{
+    flex: 0 1 950px;
+  }
+
+  &.content-sidebar{
+    margin-left: 2em;
+    position: sticky;
+    min-width: 335px;
+    height: 480px;
+    top: 1em;
+    flex: 1;
+  }
+
+  &.content-sidebar > .scroll-top-icon{
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    bottom: -160px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background-position-y: -2px;
+    border: solid 2px $clr-detail-dark;
+    background-color: $clr-body-background;
+    background-image: url(../../images/angle-double-up-solid.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-name: arrow;
+  }
+}
