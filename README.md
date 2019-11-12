@@ -28,7 +28,7 @@ License: [Creative Commons Attribution 4.0 International License](https://creati
 - https://github.com/freddan88/Yrgo-examensarbete-backend
 - https://github.com/freddan88/Yrgo-examensarbete-frontend
 
-#### Contributer:
+#### Contributor:
 | Fredrik Leemann
 |----------------
 | GitHub: [https://github.com/freddan88](https://github.com/freddan88 "freddan88@GitHub")
