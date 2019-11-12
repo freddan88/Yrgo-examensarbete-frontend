@@ -1,6 +1,8 @@
 # Yrgo Examensarbete Frontend
 #### React.js Website consuming a Wordpress Rest API - Swedish
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68b1d167-8ab1-4c4c-b314-d4ffae3093c7/deploy-status)](https://app.netlify.com/sites/rormossenshumle/deploys)
+
 > Master thesis at Yrgo - [Web Developer Program](https://yrgo.se/utbildningar/media-och-kommunikation/webbutvecklare/) - Gothenburg Swede (2019-11-15 - 12:00)<br/>
 > I worked on the website at: https://www.rormossenshumle.se
 
@@ -8,6 +10,24 @@
 
 #### This is a public repository with a MIT License and you are free to reuse the code as you want!
 Read More: https://choosealicense.com/licenses/mit
+
+#### Installation
+
+1. Clone or download this repository by using Git or download ZIP
+```Bash
+git clone https://github.com/freddan88/Yrgo-examensarbete-frontend.git
+```
+2. Install dependencies
+```Bash
+npm install
+```
+3. Copy and rename .env.example to .env and edit: REACT_APP_API_ROOT<br/>
+Example:
+- REACT_APP_API_ROOT=http://localhost/wp-json/rhg/v1
+4. Start the application
+```Bash
+npm start
+```
 
 The repository contains a folder called redirect, this is the wordpress theme folder<br/>
 For easy installation you can download as a zip-file and drag the folder to your Wordpress installation
