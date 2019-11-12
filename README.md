@@ -41,8 +41,8 @@ License: [Creative Commons Attribution 4.0 International License](https://creati
 - https://developer.wordpress.org/rest-api/reference
 - https://github.com/CMB2/CMB2/wiki/Field-Types#file_list
 - https://wordpress.stackexchange.com/questions/108652/remove-custom-post-type-permalink
-- https://realfavicongenerator.net/favicon_result?file_id=6aae66c34e84364a426307ef1e6459bb55e7a11d#.XcPcRVVKhhF
 - https://www.npmjs.com/package/react-infinite-scroll-component
+- https://realfavicongenerator.net
 - https://convertico.com/
 
 ---
