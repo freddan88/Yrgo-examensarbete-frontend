@@ -9,6 +9,9 @@
 #### This is a public repository with a MIT License and you are free to reuse the code as you want!
 Read More: https://choosealicense.com/licenses/mit
 
+The repository contains a folder called redirect, this is the wordpress theme folder<br/>
+For easy installation you can download as a zip-file and drag the folder to your Wordpress installation
+
 #### NPM Packages used:
 - [axios](https://www.npmjs.com/package/axios)
 - [node-sass](https://www.npmjs.com/package/node-sass)
