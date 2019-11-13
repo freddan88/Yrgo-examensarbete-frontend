@@ -1,8 +1,6 @@
 # Yrgo Examensarbete Frontend
 #### React.js Website consuming a Wordpress Rest API - Swedish
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/68b1d167-8ab1-4c4c-b314-d4ffae3093c7/deploy-status)](https://app.netlify.com/sites/rormossenshumle/deploys)
-
 > Master thesis at Yrgo - [Web Developer Program](https://yrgo.se/utbildningar/media-och-kommunikation/webbutvecklare/) - Gothenburg Swede (2019-11-15 - 12:00)<br/>
 > I worked on the website at: https://www.rormossenshumle.se
 
@@ -67,6 +65,12 @@ License: [Creative Commons Attribution 4.0 International License](https://creati
 - https://www.npmjs.com/package/react-infinite-scroll-component
 - https://realfavicongenerator.net
 - https://convertico.com/
+- WP REST API - Custom Endpoints (Watch and Learn YouTube)<br/>
+https://www.youtube.com/watch?v=C2twS9ArdCI
+- React State Management Tutorial - Context Api (Dev Ed YouTube)<br/>
+https://www.youtube.com/watch?v=35lXWvCuM8o
+- React Router Tutorial (Dev Ed YouTube)<br/>
+https://www.youtube.com/watch?v=Law7wfdg_ls
 
 ---
 
