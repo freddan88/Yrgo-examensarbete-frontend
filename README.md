@@ -62,11 +62,11 @@ License: [Creative Commons Attribution 4.0 International License](https://creati
 - https://www.npmjs.com/package/react-infinite-scroll-component
 - https://realfavicongenerator.net
 - https://convertico.com/
-- WP REST API - Custom Endpoints (Watch and Learn YouTube)<br/>
+- WP REST API - Custom Endpoints (Watch and Learn - YouTube)<br/>
 https://www.youtube.com/watch?v=C2twS9ArdCI
-- React State Management Tutorial - Context Api (Dev Ed YouTube)<br/>
+- React State Management Tutorial - Context Api (Dev Ed - YouTube)<br/>
 https://www.youtube.com/watch?v=35lXWvCuM8o
-- React Router Tutorial (Dev Ed YouTube)<br/>
+- React Router Tutorial (Dev Ed - YouTube)<br/>
 https://www.youtube.com/watch?v=Law7wfdg_ls
 
 ---
