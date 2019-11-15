@@ -27,9 +27,6 @@ Example:
 npm start
 ```
 
-The repository contains a folder called redirect, this is the wordpress theme folder<br/>
-For easy installation you can download as a zip-file and drag the folder to your Wordpress installation
-
 #### NPM Packages used:
 - [axios](https://www.npmjs.com/package/axios)
 - [node-sass](https://www.npmjs.com/package/node-sass)
@@ -40,7 +37,7 @@ For easy installation you can download as a zip-file and drag the folder to your
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 - [react-helmet](https://www.npmjs.com/package/react-helmet)
 
-#### Icon downloaded from Font Awsome
+#### Icons downloaded from Font Awesome
 License: [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 - [Icon: Fontawesome solid angle-double-up (fas)](https://fontawesome.com/icons/angle-double-up?style=solid)
 - [Icon: Fontawesome solid Bars (fas)](https://fontawesome.com/icons/bars?style=solid)
