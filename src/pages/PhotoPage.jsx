@@ -132,7 +132,7 @@ const PhotoPage = () => {
                 {
                   publishedGalleriesPerYear.map((object,index) => (
                     <option key={index} value={object.year}>
-                      {object.year} : {object.published} Publiserad(e)
+                      {object.year} : {object.published} Publicerad(e)
                     </option>
                   ))
                 }
